@@ -1,0 +1,101 @@
+
+/* info start */
+.info{
+    margin-top: 10.5rem;
+}
+.info .info__head ul{
+    display: flex;
+   
+    gap: 2.5rem;
+    align-items: center;
+}
+.info .info__head ul .info-ico{
+    font-size: 2.2rem;
+}
+.info .info__head ul span{
+   margin-left: 0.8rem;
+}
+
+
+.info .info__main{
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.info .info__main .info__text{
+    flex: 2;
+    flex-basis: 30rem;
+}
+.info .info__main .info__text h2{
+    font-size: 8rem;
+    max-width: 62rem;
+}
+.info .info__main .info__text p{
+   max-width: 40rem;
+}
+
+
+.info .info__main .info__img{
+    flex: 1;
+    height: 35rem;
+    flex-basis: 30rem;
+}
+
+.info .info__footer{
+    margin: 0 auto;
+    margin-top: 6.6rem;
+    background-color: var(--color-blue);
+    max-width: 48rem;
+    padding: 1.9rem 2.5rem;
+    color: #fff;
+    
+}
+.info .info__footer h6{
+    text-align: end;
+}
+/* info end */
+
+
+/* programmme start */
+
+.programme{
+    margin-top: 20rem;
+    padding-bottom: 12rem;
+}
+
+.programme .programme__main{
+    margin-top: 12rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(30rem,1fr));
+    column-gap: 2.4rem;
+    row-gap: 2rem;
+}
+
+.programme .programme__main .programme__card{
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.programme .programme__main .programme__card .card__img{
+    height: 16rem;
+}
+.programme .programme__main .programme__card .card__img div{
+    background-color: violet;
+    height: 100%;
+}
+
+.programme .programme__main .programme__card .card__text{
+    padding: 1.6rem 2rem;
+}
+.programme .programme__main .programme__card .card__text p{
+    margin-top: 3.2rem;
+}
+
+
+
+.course{
+    background-color: var(--color-brown);
+    padding: 9rem 0rem;
+    
+}
